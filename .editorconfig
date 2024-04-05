@@ -1,0 +1,13 @@
+﻿[*.cs]
+
+# IDE1006: Naming Styles
+dotnet_diagnostic.IDE1006.severity = none
+
+# IDE0017: Simplify object initialization
+dotnet_style_object_initializer = false:suggestion
+
+# IDE0042: Deconstruct variable declaration
+csharp_style_deconstructed_variable_declaration = false:suggestion
+
+# IDE0059: Unnecessary assignment of a value
+dotnet_diagnostic.IDE0059.severity = none

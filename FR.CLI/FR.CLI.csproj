@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<PackAsTool>true</PackAsTool>
+		<IsPackable>true</IsPackable>
+		<ToolCommandName>firen</ToolCommandName>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<AssemblyName>FR.CLI</AssemblyName>
+		<LangVersion>Latest</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="3.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\FR.Core\FR.Core.csproj" />
+	</ItemGroup>
+	
+</Project>
